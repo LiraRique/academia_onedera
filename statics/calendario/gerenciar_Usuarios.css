@@ -1,0 +1,587 @@
+
+
+.icone {
+  margin-right: 6%;
+}
+
+.titulo_enventos{
+  margin-top:30px ;
+  margin-left: 30px;
+  color:black;
+}
+
+.col-lg-4{
+  margin-left: 15%;
+  margin-top: -40%;
+  color: black;
+}
+/* ################## Isso aqui serve para retirar as setinhas do campos tipo NUMBER dos forms ############### */
+
+/* ################## FIM Isso aqui serve para retirar as setinhas dos campos tipos number ############### */
+
+
+
+/* ###################### CONFIGURAÇÃO DOS CARDS ####################*/
+
+
+
+.cardTituloModal{
+
+ 
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  border: 0;
+  background-image: linear-gradient(to right,#19455d 75%, #246a89);    
+  background-size: cover;
+  z-index: 0;
+  padding: 2%;
+  margin-top: 5%;
+
+
+}
+
+
+
+
+.cardModalEspecialTitulo{
+
+  
+ 
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  border: 0;
+  background-image: linear-gradient(to right,#19455d 75%, #246a89);    
+  background-size: cover;
+  z-index: 0;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+
+
+}
+
+.cardModalConteudo{
+
+  
+  
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  border: 0;
+  background-image: linear-gradient(to right,#19455d 75%, #246a89);    
+  background-size: cover;
+  z-index: 0;
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+
+
+}
+
+
+.conteudoUsuario{
+
+  
+  width: 120%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-image: linear-gradient(to right,#ffffff 75%, #ffffff);    
+  border: 0;
+  background-size: cover;
+  z-index: 0;
+  padding: 2%;
+  margin-top: 5%;
+
+
+}
+#cardTipoUsuario{
+
+  
+  
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+border: 0;
+background-image: linear-gradient(to right,#0a0e0f 75%, #0a0e0f);    
+background-size: cover;
+z-index: 0;
+padding: 2%;
+margin-top: 5%;
+margin-left: 1%;
+margin-bottom: 2%;
+
+
+}
+
+
+
+
+
+/* ###################### FIM CONFIGURAÇÃO DOS CARDS ####################*/
+
+
+
+/* ##################### CONFIGURAÇÃO DOS TEXTOS DO SITE ####################### */
+
+
+
+
+/* ##################### FIM CONFIGURAÇÃO DOS TEXTOS DO SITE ####################### */
+
+
+/* ################ Configurações do modal ################*/
+
+
+.modal-title{
+  font-family: sans-serif;
+  color: #e2f3f1;
+  text-align: center;
+}
+
+
+.modal-dialog .modal-content{
+
+  width: 170%;
+  
+}
+
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
+
+
+/*########## Fim configurações do modal ##########*/
+
+
+
+/*########### Configurações dos Menus Quadrados #############*/
+
+
+.our-team-main_modal1
+{
+width:100%;
+height:auto;
+border-bottom:5px #323233 solid;
+background:#fff;
+text-align:center;
+border-radius:10px;
+overflow:hidden;
+position:relative;
+transition:0.5s;
+margin-bottom:28px;
+margin-left: 1px;
+}
+
+
+.our-team-main_modal1 img
+{
+border-radius:50%;
+margin-bottom:20px;
+width: 120px;
+}
+
+.our-team-main_modal1 h3
+{
+font-size:20px;
+font-weight:700;
+}
+
+.our-team-main_modal1 p
+{
+margin-bottom:0;
+}
+
+.team-back
+{
+width:100%;
+height:auto;
+position:absolute;
+top:0;
+left:0;
+padding:5px 15px 0 15px;
+text-align:left;
+background:#fff;
+
+}
+
+.team-front
+{
+width:100%;
+height:auto;
+position:relative;
+z-index:10;
+background: #e2f3f1;
+padding:15px;
+bottom:0px;
+transition: all 0.5s ease;
+}
+
+
+
+
+
+.our-team-main_modal1:hover .team-front
+{
+bottom:-200px;
+transition: all 0.5s ease;
+}
+
+.our-team-main_modal1:hover
+{
+border-color:#777;
+transition:0.5s;
+}
+
+/* ##################### MODAL 2############################# */
+
+.our-team-main_modal2
+{
+width:100%;
+height:auto;
+border-bottom:5px #323233 solid;
+background:#fff;
+text-align:center;
+border-radius:10px;
+overflow:hidden;
+position:relative;
+transition:0.5s;
+margin-bottom:28px;
+margin-left: 140%;
+}
+
+
+
+.our-team-main_modal2 img
+{
+border-radius:50%;
+margin-bottom:20px;
+width: 120px;
+}
+
+.our-team-main_modal2 h3
+{
+font-size:20px;
+font-weight:700;
+}
+
+.our-team-main_modal2 p
+{
+margin-bottom:0;
+}
+
+
+.our-team-main_modal2:hover .team-front
+{
+bottom:-200px;
+transition: all 0.5s ease;
+}
+
+.our-team-main_modal2:hover
+{
+border-color:#777;
+transition:0.5s;
+}
+
+
+
+
+
+/*############## FIM Configurações dos Menus Quadrados ###################### */
+
+
+/*############## CONFIGURAÇÕES DAS CORES DA TABELA DE LOTE ################*/
+
+
+
+/*############## FIM CONFIGURAÇÕES DAS CORES DA TABELA DE LOTE ################*/
+
+
+/*########### Estilo da linha colorida de divisoria do cadastro #############*/
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+/*############## FIM CONFIGURAÇÕES DA LINHA COLORIDA DA DIVISÓRIA ################*/
+
+
+/* ################################## CONFIGURAÇÃO DOS CAMPOS DO FORMULARIO DE PRODUTO ############################ */
+
+
+.form-control-texto {
+
+  width: 30%;
+  display: inline-table;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-left: 5px;
+}
+
+
+.form-control-dadosUsuario {
+  display: inline-table;
+  width: 24%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2%;
+}
+
+.form-control-loginUsuario {
+display: inline-table;
+width: 48%;
+height: calc(2.25rem + 2px);
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+margin-top: 2%;
+}
+
+
+.form-control-Select {
+  display: inline-table;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  width: 90%;
+}
+
+.form-list{
+  
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+  
+}
+
+.form-list-UF{
+
+width: 60%;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+border: 1px solid #ced4da;
+border-radius: .35rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+
+}
+
+
+.form-Select-UF {
+
+display: inline-flex;
+width: 24%;
+height: 38px;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #21607d;
+border: 1px solid #206585;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ 
+}
+
+
+.form-list-Cargo{
+
+width: 60%;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+border: 1px solid #ced4da;
+border-radius: .35rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+
+}
+
+
+.form-Select-Cargo {
+
+margin-top: 1%;
+display: inline-flex;
+width: 24%;
+height: 38px;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #21607d;
+border: 1px solid #206585;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ 
+}
+
+
+
+.form-control-dadosUsuario_telefone{
+  display: inline-table;
+  width: 24%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2%;
+
+}
+
+
+.form-control-dadosUsuario_hora{
+  display: inline-table;
+  width: 20%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2%;
+
+}
+
+
+
+.form-control-dadosUsuario_n_endereco{
+  display: inline-table;
+  width: 7%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2%;
+}
+
+
+
+
+.form-control-dadosUsuario_cep{
+  display: inline-table;
+  width: 15%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2%;
+}
+
+
+
+
+
+
+/* ################# Configuração dos 3 ulitimos campos do formulario CADASTRAR PRODUTO ############## */
+
+/* ################# FIM Configuração dos 3 ulitimos campos do formulario CADASTRAR PRODUTO ############## */
+
+/* ################################## FIM CONFIGURAÇÃO DOS CAMPOS DO FORMULARIO DE PRODUTO ############################ */
+
+
+#timepicker:before {
+  content:'Hora Inicio:*';
+  margin-right:.6em;
+  color:#9d9d9d;
+  }
+
+  #timepicker_fim:before{
+  content:'Hora Final: *';
+  margin-right:.6em;
+  color:#9d9d9d;
+  }
+  
+  #timepicker_data:before{
+    content:'Data Evento: * ';
+    margin-right:.6em;
+    color:#9d9d9d;
+    }
+
+/* ################################## CONFIGURAÇÃO DA TABELA (ÚLTIMOS PRODUTOS) ############################ */
+
+/* ################################## FIM DA CONFIGURAÇÃO DA TABELA (ÚLTIMOS PRODUTOS) ############################ */
+
+//* ################################ FIM CONFIGURAÇÕES DOS TÍTULOS DO MODAL ############################## */
+
+
+
+/* ################################# CONFIGURAÇÃO DOS RADIOS BUTTON DO CADASTRAR USUARIO ##################*/
+
+
+/* ########################### CONFIGURAÇÃO DA PAGINAÇÃO DAS TABAELAS ################### */
+
+
+/* ########################### FIM CONFIGURAÇÃO DA PAGINAÇÃO DAS TABAELAS ################### */
